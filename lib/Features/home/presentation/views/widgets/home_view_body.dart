@@ -21,7 +21,7 @@ class HomeViewBody extends StatelessWidget {
           ),
           Text(
             "Best Seller",
-            style: Styles.titleMedium,
+            style: Styles.textStyle18,
           ),
           BestSellerListViewItem(),
         ],
@@ -35,29 +35,27 @@ class BestSellerListViewItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  SizedBox(
+    return SizedBox(
       height: 125,
       child: Row(
         children: [
-        AspectRatio(
-        aspectRatio: 2.5/4,
-        child: Container(
-          height: MediaQuery.of(context).size.height*.25,
-          width: 100,
-          decoration:  BoxDecoration(
-            borderRadius:BorderRadius.circular(8),
-            color: Colors.red,
-            image: const DecorationImage(
-              fit: BoxFit.fill,
-              image: AssetImage(AssetsData.test),
+          AspectRatio(
+            aspectRatio: 2.5 / 4,
+            child: Container(
+              height: MediaQuery.of(context).size.height * .25,
+              width: 100,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(8),
+                color: Colors.red,
+                image: const DecorationImage(
+                  fit: BoxFit.fill,
+                  image: AssetImage(AssetsData.test),
+                ),
+              ),
             ),
           ),
-        ),
-      ),
           const Column(
-            children: [
-
-            ],
+            children: [],
           ),
         ],
       ),
