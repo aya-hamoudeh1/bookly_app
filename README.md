@@ -1,6 +1,6 @@
 # 📚 Bookly App
 
-A modern Flutter application for discovering and browsing free programming books powered by the Google Books API. Built with clean architecture principles and BLoC state management.
+A modern Flutter application for discovering and browsing free programming books powered by the Google Books API. Built with Clean Architecture principles and BLoC state management.
 
 ## ✨ Features
 
